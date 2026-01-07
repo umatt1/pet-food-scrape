@@ -1,0 +1,8 @@
+# Pet Food Scraper Dependencies
+# This project uses only Python standard library modules
+# No external dependencies required
+
+# Optional: For future enhancements, you might want to consider:
+# requests>=2.31.0  # For more advanced HTTP handling
+# pandas>=2.0.0     # For data analysis and export
+# python-dotenv>=1.0.0  # For configuration management
