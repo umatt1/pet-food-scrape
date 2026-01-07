@@ -19,6 +19,14 @@ A Python script to fetch cat food product data from the OpenPetFoodFacts API and
 - Python 3.6 or higher
 - No external dependencies (uses standard library only)
 
+## Project Files
+
+- `fetch_cat_food.py`: Main script that fetches product data from OpenPetFoodFacts API and stores it in SQLite
+- `query_database.py`: Example script demonstrating how to query and analyze the database
+- `test_fetch_cat_food.py`: Test suite validating the scraper functionality
+- `requirements.txt`: Python dependencies (currently only standard library is used)
+- `pet_food.db`: SQLite database file (created after running the script, excluded from git)
+
 ## Usage
 
 1. Run the script:
@@ -31,6 +39,17 @@ python fetch_cat_food.py
    - Fetch data for each barcode in the example list
    - Store the parsed data in the database
    - Display a summary of results
+
+3. Query the database:
+```bash
+python query_database.py
+```
+
+This will display all products in the database. You can also modify `query_database.py` to:
+- Show detailed information for specific products
+- Search products by brand
+- Find high-protein products
+- Perform custom queries
 
 ## Database Schema
 
